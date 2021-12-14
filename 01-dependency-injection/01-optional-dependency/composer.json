@@ -1,0 +1,22 @@
+{
+    "name": "zoltankrizsan/php-unit",
+    "authors": [
+        {
+            "name": "Zoltan Krizsan",
+            "email": "krizsan@gmail.hu"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
